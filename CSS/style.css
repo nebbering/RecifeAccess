@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(36, 186, 255);
+    background-image: linear-gradient(to bottom, rgb(0,191,255), rgb(0, 78, 114) );
+    background-attachment: fixed;
 }
 
 .logo-nav {
