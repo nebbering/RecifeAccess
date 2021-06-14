@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+body{
+    background-image: linear-gradient(to bottom, rgb(0,191,255), rgb(0, 78, 114) );
+    background-attachment: fixed;
+}
+
+.conteiner {
+    display:inline-block
+    
+}
+
