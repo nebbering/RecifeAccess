@@ -2,10 +2,29 @@
 body{
     background-image: linear-gradient(to bottom, rgb(0,191,255), rgb(0, 78, 114) );
     background-attachment: fixed;
+    
 }
 
 .conteiner {
+    align-items: center;
+    margin: 80px auto;
     display:inline-block
     
 }
 
+#imagem {
+    border-radius: 2%;
+}
+
+#info {
+    margin: 80px auto;
+    
+}
+
+.rodape {
+    width: 10%;
+    height: 5%;
+    margin-top: 43.5%;
+    margin-left: 45%;
+
+ }
