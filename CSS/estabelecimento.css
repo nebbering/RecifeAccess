@@ -5,21 +5,8 @@ body{
     
 }
 
-.conteiner {
-    align-items: center;
-    margin: 80px auto;
-    display:inline-block
-    
-}
 
-#imagem {
-    border-radius: 2%;
-}
 
-#info {
-    margin: 80px auto;
-    
-}
 
 .rodape {
     width: 10%;

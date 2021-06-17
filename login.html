@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recife Access - Login</title>
-    <link rel="stylesheet" href="/RecifeAccess/CSS/login.css">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <script src="/js/login.js"></script>
 </head>
 <body>
     <form>
         <h2>Login</h2>
-        <input type="text" name="e-mail" placeholder="Seu email"/>
-        <input type="password" name="senha" placeholder="Sua senha"/>
-        <a href="/RecifeAccess/index.html"> <input type="button" name="acao" value="Entrar"/> </a>
-        <a href="/RecifeAccess/cadastro.html">  <input type="button" name="registro" value="Criar conta"/> </a>
+        <input type="text" name="e-mail" placeholder="Seu email" id="email" />
+        <input type="password" name="senha" placeholder="Sua senha" id="senha" />
+
+         <input onclick="logar()" type="button" name="acao" value="Entrar"  />
+
+        <a href="/cadastro.html">  <input type="button" name="registro" value="Criar conta"/> </a>
     </form>
     <footer>
-        <img class="rodape" src="/RecifeAccess/IMAGENS/RecifeAccessHORIZON.png" alt="Logo Recife Access Rodapé">
+        <img class="rodape" src="/IMAGENS/RecifeAccessHORIZON.png" alt="Logo Recife Access Rodapé">
     </footer>
 </body>
 </html>
